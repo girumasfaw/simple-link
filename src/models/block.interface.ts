@@ -7,5 +7,5 @@ export interface IBlock {
 
  export interface IBlockAction{
     type: string;
-    article: IBlock;
+    block: IBlock;
 }
